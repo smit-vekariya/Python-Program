@@ -1,14 +1,7 @@
 def po(n):
     string="my name is smit"
-  
-    for index, i in enumerate(string):
-       if(index==n):
-         string.pop(index)
-         print(string)
+    new_string = string[:n-1]+string[n:]
+    print(new_string)
         
-    
-    
-    
-    
 posi=int(input("Enter:"))
 po(posi)

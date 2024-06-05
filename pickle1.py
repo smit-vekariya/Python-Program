@@ -8,10 +8,10 @@ file="mycar.pkl"
 fileobj=open(file,"wb")
 pickle.dump(car,fileobj)
 fileobj.close()
-"""
+
+
 #unpickling
-fileobj=open("mycar.pkl","rb")
-unpic=pickle.load(fileobj)
-print(unpic)
-print(type(unpic))
-"""
+# fileobj=open("mycar.pkl","rb")
+# unpic=pickle.load(fileobj)
+# print(unpic)
+# print(type(unpic))
