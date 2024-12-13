@@ -1,0 +1,4 @@
+person 1: hi
+person 2: what's up
+[ both sake hands ]
+person 1: where are you from
