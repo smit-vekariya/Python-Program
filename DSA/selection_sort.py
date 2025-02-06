@@ -31,7 +31,7 @@ print("Sorted:", unsort)
             
 #             while next_node:
 #                 if min_node.val > next_node.val:
-#                     min_node = next_node
+#                     next_node.val ,min_node.val= min_node.val, next_node.val
 #                 next_node = next_node.next
             
 #             currentNode2.val ,min_node.val= min_node.val, currentNode2.val
