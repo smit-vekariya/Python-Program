@@ -17,7 +17,5 @@ y_pred = model.predict(X)
 plt.scatter(X, y, color="blue")
 plt.plot(X, y_pred, color="red")
 
-# in idx we need to save img insted of show in popup
-# plt.savefig("my_plot.png")
 plt.show()
 
