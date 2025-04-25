@@ -21,5 +21,6 @@ test_r2 = r2_score(test_y, mymodel(test_x))
 # The result 0.809 shows that the model fits the testing set as well, and we are confident that we can use the model to predict future values.\
 
 plt.scatter(train_x, train_y)
+# plt.scatter(test_x, test_y)
 plt.plot(myline, mymodel(myline))
 plt.show()
